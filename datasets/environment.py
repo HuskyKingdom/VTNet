@@ -15,7 +15,7 @@ class Environment:
         use_offline_controller,
         grid_size=0.25,
         fov=100.0,
-        offline_data_dir='/tmp/data_dhm/AI2thor_Dataset/Scene_Data',
+        offline_data_dir='datasets/Scene_Data',
         detection_feature_file_name='det_feature_60_categories.hdf5',
         images_file_name='resnet18_featuremap.hdf5',
         visible_object_map_file_name='visible_object_map.json',
