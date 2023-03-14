@@ -65,7 +65,7 @@ def main():
     args.num_steps = 50
     target = a3c_val if args.eval else a3c_train
 
-    args.data_dir = os.path.expanduser('datasets/Scene_Data')
+    args.data_dir = './datasets/Scene_Data'
     scenes = loading_scene_list(args)
 
     if args.detection_feature_file_name is None:
